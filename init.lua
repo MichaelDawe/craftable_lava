@@ -33,3 +33,10 @@ minetest.register_craft({
     {"craftable_lava:hot_stone", "bucket:bucket_empty", "craftable_lava:hot_stone"},
     {"craftable_lava:hot_stone", "craftable_lava:hot_stone", "craftable_lava:hot_stone"}},
 })
+
+minetest.register_craft({
+    output = "default:lava_source",
+	recipe = {{"craftable_lava:hot_stone", "craftable_lava:hot_stone", "craftable_lava:hot_stone"},
+    {"craftable_lava:hot_stone", "craftable_lava:hot_stone", "craftable_lava:hot_stone"},
+    {"craftable_lava:hot_stone", "craftable_lava:hot_stone", "craftable_lava:hot_stone"}},
+})
